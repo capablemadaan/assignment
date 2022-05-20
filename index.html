@@ -1,0 +1,46 @@
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Macondo&display=swap" rel="stylesheet">
+  
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="./index.js"></script>
+    <link rel="stylesheet" href="./style.css">
+  
+  </head>
+  
+  <div class="list-wrap"> 
+    <div class="list-inner-wrap">
+      <h1 class="title">My Todo list</h1>
+      <h3 class="title">Add Task</h2>
+      <h4>Task Name</h4>
+      
+      <input type="text" class="newTask" name="task-name" id="task-name" value="">
+  
+      <button class="btn btn-primary" id="add-btn">
+        <span class="glyphicon glyphicon-plus">Add</span>
+      </button>
+      <h4>Date</h4>
+      <br>
+      <label for="task-date">Task Date</label><input type="text" class="task-date" name="task-date" id="task-date" value="">
+      <br>
+      <br>
+      <br>
+  
+  
+      <h3 class="title">To Do</h2>
+      <ul class="uncompleted" id="uncompleted">
+        <li>Need to be completed task<button class="btn btn-success" id="done-btn">
+        <span class="glyphicon glyphicon-ok"> Done</span>
+          </button></li>
+      </ul>
+  
+      <h3 class="title">Completed Tasks</h2>
+      <ul class="completed" id="completed">
+        <li id="completed-li">Completed Task<button class="btn btn-danger">
+        <span class="glyphicon glyphicon-remove"> Remove</span>
+      </button></li>
+      </ul>
+     </div>
+  </div>
